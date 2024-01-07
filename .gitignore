@@ -1,0 +1,30 @@
+# Ignore compiled / cached / log files 
+*.pyc
+*log
+*.save
+*.swp
+# Ignore service resulting files
+*.jpg
+*.png
+*.index
+*.onnx
+*.pth
+# Ignore notebook files that were used for tests
+*.ipynb
+.ipynb_checkpoints
+# Ignore test folders
+models
+photos
+pickles
+# Byte-compiled / optimized / DLL files
+__pycache__/
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+Pipfile
+Pipfile.lock
